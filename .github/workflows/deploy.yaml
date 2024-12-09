@@ -8,8 +8,7 @@ on:
 env:
   ECR_REPOSITORY: flask-app
   EKS_CLUSTER_NAME: Kubernetes-demo 
-  AWS_REGION: us-east-1
-
+  AWS_REGION: ap-south-1
 jobs:
   
   build:
